@@ -23,7 +23,7 @@ public class GitTool {
 
         if (args.length == 0) {
             System.out.print(StaticVariables.commands);
-        } else if (args[0].equalsIgnoreCase(StaticVariables.list) && (args.length == 1 || !args[1].equals(StaticVariables.ruby))) {
+        } else if (args[0].equals(StaticVariables.list) && (args.length == 1 || !args[1].equals(StaticVariables.ruby))) {
 
             ListGitTool tool = (ListGitTool) gitHubToolFactory.getTool(StaticVariables.list, args);
             tool.runGitHubTool();
