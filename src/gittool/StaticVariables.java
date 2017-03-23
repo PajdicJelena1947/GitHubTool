@@ -6,7 +6,7 @@
 package gittool;
 
 /**
- *Static variables for app
+ *Static variables for app.
  * @author jelena
  */
 public class StaticVariables {

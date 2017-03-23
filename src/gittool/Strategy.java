@@ -6,7 +6,7 @@ package gittool;
  * and open the template in the editor.
  */
 /**
- *
+ * Strategy pattern
  * @author jelena
  */
 public class Strategy {

@@ -6,7 +6,7 @@ package gittool;
  * and open the template in the editor.
  */
 /**
- *
+ * Util class for reading json
  * @author jelena
  */
 import java.io.BufferedReader;

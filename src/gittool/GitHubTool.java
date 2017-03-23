@@ -7,7 +7,7 @@ package gittool;
  */
 
 /**
- * 
+ * interface for strategy
  * @author jelena
  */
 public interface GitHubTool {

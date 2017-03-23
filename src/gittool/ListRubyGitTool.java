@@ -11,7 +11,7 @@ import org.json.JSONException;
  * and open the template in the editor.
  */
 /**
- *
+ *Class for commant "list ruby x"
  * @author jelena
  */
 public class ListRubyGitTool implements GitHubTool {

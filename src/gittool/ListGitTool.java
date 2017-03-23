@@ -11,7 +11,7 @@ import org.json.JSONException;
  * and open the template in the editor.
  */
 /**
- *
+ *Class for command "list x"
  * @author jelena
  */
 public class ListGitTool implements GitHubTool {

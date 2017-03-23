@@ -12,7 +12,7 @@ import org.json.JSONObject;
  * and open the template in the editor.
  */
 /**
- *
+ *Runnable
  * @author jelena
  */
 public class DescGitHubTool implements GitHubTool, Runnable {

@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Main class for run app
+ * Main class for run program
  * @author jelena
  */
 public class GitTool {
@@ -41,7 +41,6 @@ public class GitTool {
                 DescGitHubTool tool = new DescGitHubTool(Integer.parseInt(args[i]));
 
                 executor.execute(tool);
-
             }
             executor.shutdown();
         } else {
